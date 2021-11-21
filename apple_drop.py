@@ -42,17 +42,17 @@ def drop_apple2():
   apple2.setposition(rand.randint(-200,200),-200)
 
 def drop_apple3():
-  apple2.penup()
+  apple3.penup()
   rand_apple=rand.randint(-200,200)
-  apple2.setposition(rand_apple,0)
-  apple2.setposition(rand.randint(-200,200),-200)
+  apple3.setposition(rand_apple,0)
+  apple3.setposition(rand.randint(-200,200),-200)
 
 def drop_apple4():
-  apple2.penup()
+  apple4.penup()
   rand_apple=rand.randint(-200,200)
-  apple2.setposition(rand_apple,0)
-  apple2.setposition(rand.randint(-200,200),-200)
-
+  apple4.setposition(rand_apple,0)
+  apple4.setposition(rand.randint(-200,200),-200)
+  
 def drop_apple5():
   apple5.penup()
   rand_apple=rand.randint(-200,200)
